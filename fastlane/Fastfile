@@ -26,10 +26,10 @@ platform :ios do
     puts "Launching fastlane with parameters: #{ipa_name}"
     puts "*********************************************************"
 
-    # scan(devices: ["iPhone XR (12.1)", "iPhone X (12.1)", "iPhone XS (12.1)"],
-    #          scheme: scheme)
-    ipa = ipa_name
-    CrashlyticsBeta ipa_name: ipa
+     scan(devices: ["iPhone XR (12.1)", "iPhone X (12.1)", "iPhone XS (12.1)"],
+              scheme: scheme)
+    #ipa = ipa_name
+    #CrashlyticsBeta ipa_name: ipa
   end
 
   desc "Make an Archive and submit it to Crashlytics Beta for distribution among testers"
