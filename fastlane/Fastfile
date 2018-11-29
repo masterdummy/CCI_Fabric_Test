@@ -20,7 +20,7 @@ platform :ios do
   ipa_name = "Nevercode_CICD.ipa"
 
   desc "Execute Unit test and call Crashlytics lane"
-  lane :start_lane
+  lane :start_lane do
 
     puts "*********************************************************"
     puts "Launching fastlane with parameters: #{ipa_name}"
@@ -32,7 +32,7 @@ platform :ios do
   end
 
   desc "Make an Archive and submit it to Crashlytics Beta for distribution among testers"
-  lane :CrashlyticsBeta
+  lane :CrashlyticsBeta do
 
     puts "*********************************************************"
     puts "Starting building and distribuiting #{ipa_name}"
