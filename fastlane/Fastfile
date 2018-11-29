@@ -16,7 +16,7 @@ platform :ios do
 
   desc "Defining global variables"
   workspace = @WORKSPACE_PATH
-  scheme = "CCI_Fabric_Test"
+  scheme = "CCI_Fabric_Test[workspace]"
   ipa_name = "Nevercode_CICD.ipa"
 
   desc "Execute Unit test and call Crashlytics lane"
