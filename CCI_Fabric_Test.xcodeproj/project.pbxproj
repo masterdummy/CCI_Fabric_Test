@@ -14,6 +14,7 @@
 		3B9D83B321A6C04800823269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9D83B121A6C04800823269 /* LaunchScreen.storyboard */; };
 		3B9D83BE21A6C04800823269 /* CCI_Fabric_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D83BD21A6C04800823269 /* CCI_Fabric_TestTests.swift */; };
 		3B9D83C921A6C04800823269 /* CCI_Fabric_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D83C821A6C04800823269 /* CCI_Fabric_TestUITests.swift */; };
+		C55BE8CAECFCCD51567B236D /* Pods_CCI_Fabric_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA434DCECDA3A96FACFACA9 /* Pods_CCI_Fabric_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		3B9D83C421A6C04800823269 /* CCI_Fabric_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCI_Fabric_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9D83C821A6C04800823269 /* CCI_Fabric_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCI_Fabric_TestUITests.swift; sourceTree = "<group>"; };
 		3B9D83CA21A6C04800823269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF6655792E39FE3B84683E0 /* Pods-CCI_Fabric_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCI_Fabric_Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCI_Fabric_Test/Pods-CCI_Fabric_Test.release.xcconfig"; sourceTree = "<group>"; };
+		9FA434DCECDA3A96FACFACA9 /* Pods_CCI_Fabric_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCI_Fabric_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2D73E276D5B3996C79AAA7 /* Pods-CCI_Fabric_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCI_Fabric_Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCI_Fabric_Test/Pods-CCI_Fabric_Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C55BE8CAECFCCD51567B236D /* Pods_CCI_Fabric_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07B0EEA5A8D667C127052E40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FA434DCECDA3A96FACFACA9 /* Pods_CCI_Fabric_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3B9D839C21A6C04400823269 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,8 @@
 				3B9D83BC21A6C04800823269 /* CCI_Fabric_TestTests */,
 				3B9D83C721A6C04800823269 /* CCI_Fabric_TestUITests */,
 				3B9D83A621A6C04400823269 /* Products */,
+				4C9B60872D13345A85799C58 /* Pods */,
+				07B0EEA5A8D667C127052E40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,15 @@
 			path = CCI_Fabric_TestUITests;
 			sourceTree = "<group>";
 		};
+		4C9B60872D13345A85799C58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D73E276D5B3996C79AAA7 /* Pods-CCI_Fabric_Test.debug.xcconfig */,
+				5AF6655792E39FE3B84683E0 /* Pods-CCI_Fabric_Test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B9D83CD21A6C04800823269 /* Build configuration list for PBXNativeTarget "CCI_Fabric_Test" */;
 			buildPhases = (
+				734F25585FAB2CB43C77C077 /* [CP] Check Pods Manifest.lock */,
 				3B9D83A121A6C04400823269 /* Sources */,
 				3B9D83A221A6C04400823269 /* Frameworks */,
 				3B9D83A321A6C04400823269 /* Resources */,
+				3BC38C7421B0021000FB6E0F /* Fabric */,
 			);
 			buildRules = (
 			);
@@ -250,6 +276,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BC38C7421B0021000FB6E0F /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 00c3bced7dd9c190768888daea4e69bb7f913e48 6631fbe0c8d72a0660ce262e58f25242042996b1034d863b0304144c7a46b111\n";
+		};
+		734F25585FAB2CB43C77C077 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCI_Fabric_Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B9D83A121A6C04400823269 /* Sources */ = {
@@ -430,17 +499,20 @@
 		};
 		3B9D83CE21A6C04800823269 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA2D73E276D5B3996C79AAA7 /* Pods-CCI_Fabric_Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4RH37TS597;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PZH5BJLYFE;
 				INFOPLIST_FILE = CCI_Fabric_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.toyotaconnected.simone.CCI-Fabric-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jav.simone.CCI-Fabric-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Simone Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +520,20 @@
 		};
 		3B9D83CF21A6C04800823269 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF6655792E39FE3B84683E0 /* Pods-CCI_Fabric_Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4RH37TS597;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PZH5BJLYFE;
 				INFOPLIST_FILE = CCI_Fabric_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eu.toyotaconnected.simone.CCI-Fabric-Test";
+				PRODUCT_BUNDLE_IDENTIFIER = "it.jav.simone.CCI-Fabric-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Simone Development";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
