@@ -3,11 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
+	<dict/>
+	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CCI_Fabric_Test.xcscheme_^#shared#^_</key>
+		<key>3B9D83A421A6C04400823269</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B9D83B821A6C04800823269</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B9D83C321A6C04800823269</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
