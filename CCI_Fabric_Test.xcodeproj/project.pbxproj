@@ -161,6 +161,7 @@
 				3B9D83A221A6C04400823269 /* Frameworks */,
 				3B9D83A321A6C04400823269 /* Resources */,
 				3BC38C7421B0021000FB6E0F /* Fabric */,
+				3B97562521B14E4900628D2E /* Crashlytics Beta */,
 			);
 			buildRules = (
 			);
@@ -278,6 +279,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3B97562521B14E4900628D2E /* Crashlytics Beta */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Crashlytics Beta";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
 		3BC38C7421B0021000FB6E0F /* Fabric */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
