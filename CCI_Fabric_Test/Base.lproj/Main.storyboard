@@ -24,20 +24,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="version" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7G-5s-6YV">
+                                <rect key="frame" x="16" y="629" width="343" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="X7G-5s-6YV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1Wn-bH-Ubz"/>
                             <constraint firstItem="elk-zV-0Cz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="Bd8-ge-d1K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="X7G-5s-6YV" secondAttribute="bottom" constant="20" id="LTs-Yi-EDh"/>
                             <constraint firstItem="elk-zV-0Cz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XfF-c0-rjI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="elk-zV-0Cz" secondAttribute="bottom" constant="444" id="gWK-1K-DBh"/>
                             <constraint firstItem="elk-zV-0Cz" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vR2-YL-xpE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X7G-5s-6YV" secondAttribute="trailing" constant="16" id="wbf-3X-zXy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="versionLabel" destination="X7G-5s-6YV" id="Wvm-Q0-Hoh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="879" y="-36"/>
+            <point key="canvasLocation" x="877.60000000000002" y="-36.431784107946029"/>
         </scene>
     </scenes>
 </document>
