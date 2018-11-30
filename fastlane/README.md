@@ -30,17 +30,12 @@ xcode-select --install
 
 # Available Actions
 ## iOS
-### ios start_lane
-```
-fastlane ios start_lane
-```
-Defining global variables
-
-Execute Unit test and call Crashlytics lane
 ### ios CrashlyticsBeta
 ```
 fastlane ios CrashlyticsBeta
 ```
+Defining global variables
+
 Make an Archive and submit it to Crashlytics Beta for distribution among testers
 
 ----
