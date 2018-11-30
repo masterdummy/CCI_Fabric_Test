@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B97562721B1538F00628D2E /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 3B97562621B1538F00628D2E /* Fastfile */; };
-		3B97562921B154A400628D2E /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 3B97562821B154A400628D2E /* Fastfile */; };
 		3B9D83A921A6C04400823269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D83A821A6C04400823269 /* AppDelegate.swift */; };
 		3B9D83AB21A6C04400823269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D83AA21A6C04400823269 /* ViewController.swift */; };
 		3B9D83AE21A6C04400823269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9D83AC21A6C04400823269 /* Main.storyboard */; };
@@ -37,8 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B97562621B1538F00628D2E /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
-		3B97562821B154A400628D2E /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		3B9D83A521A6C04400823269 /* CCI_Fabric_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCI_Fabric_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9D83A821A6C04400823269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B9D83AA21A6C04400823269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,8 +90,6 @@
 		3B9D839C21A6C04400823269 = {
 			isa = PBXGroup;
 			children = (
-				3B97562621B1538F00628D2E /* Fastfile */,
-				3B97562821B154A400628D2E /* Fastfile */,
 				3B9D83A721A6C04400823269 /* CCI_Fabric_Test */,
 				3B9D83BC21A6C04800823269 /* CCI_Fabric_TestTests */,
 				3B9D83C721A6C04800823269 /* CCI_Fabric_TestUITests */,
@@ -262,10 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B97562921B154A400628D2E /* Fastfile in Resources */,
 				3B9D83B321A6C04800823269 /* LaunchScreen.storyboard in Resources */,
 				3B9D83B021A6C04800823269 /* Assets.xcassets in Resources */,
-				3B97562721B1538F00628D2E /* Fastfile in Resources */,
 				3B9D83AE21A6C04400823269 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
